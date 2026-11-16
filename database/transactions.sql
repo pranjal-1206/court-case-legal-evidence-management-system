@@ -57,7 +57,7 @@ COMMIT;
 START TRANSACTION;
 
 UPDATE legal_cases
-SET priority = 'High'
+SET priority = 'low'
 WHERE case_id = 1;
 
 ROLLBACK;
