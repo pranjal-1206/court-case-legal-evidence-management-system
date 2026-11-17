@@ -1,11 +1,6 @@
 
 USE court_legal_management;
 
--- =============================================
--- SAMPLE DATA
--- Court Case and Legal Evidence Management System
--- All names and case details are fictional.
--- =============================================
 
 -- 1. COURTS
 INSERT INTO courts
@@ -272,7 +267,3 @@ VALUES
 (6, 5, 3, 4, '2025-04-26 15:00:00', 'Document archival', 'Records Room D', 'Fictional transfer record.'),
 (7, 6, 2, 3, '2025-05-26 10:00:00', 'Forensic review', 'Evidence Room E', 'Device seal verified.'),
 (8, 8, 2, 4, '2025-07-16 13:30:00', 'Financial evidence review', 'Digital Vault G', 'Integrity hash checked.');
-
--- =============================================
--- END OF SAMPLE DATA
--- =============================================
