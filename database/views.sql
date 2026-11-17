@@ -1,11 +1,6 @@
 
 USE court_legal_management;
 
--- ==========================================
--- PHASE 6A: DATABASE VIEWS
--- ==========================================
-
-
 -- VIEW 1: Complete case details with court information
 
 CREATE OR REPLACE VIEW case_details_view AS
